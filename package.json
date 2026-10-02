@@ -12,7 +12,7 @@
     "@equationalapplications/expo-llm-wiki": "^4.5.1",
     "expo": "~54.0.33",
     "expo-clipboard": "^57.0.2",
-    "expo-sqlite": "^55.0.16",
+    "expo-sqlite": "^57.0.3",
     "expo-status-bar": "~3.0.9",
     "react": "19.3.0",
     "react-native": "0.87.1"
