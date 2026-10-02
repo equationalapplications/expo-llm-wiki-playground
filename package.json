@@ -13,7 +13,7 @@
     "expo": "~54.0.33",
     "expo-clipboard": "^57.0.2",
     "expo-sqlite": "^55.0.16",
-    "expo-status-bar": "~3.0.9",
+    "expo-status-bar": "~57.0.1",
     "react": "19.3.0",
     "react-native": "0.87.1"
   },
