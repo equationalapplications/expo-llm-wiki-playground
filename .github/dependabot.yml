@@ -4,8 +4,24 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    cooldown:
+      # 14-day supply-chain SOP alignment; security updates bypass it
+      default-days: 14
     groups:
       minor-and-patch:
         update-types:
           - "minor"
           - "patch"
+    open-pull-requests-limit: 10
+
+# ── Security decision register (investigated alerts NOT auto-fixed) ─────────
+# Key: <package>|<alert-number>. status ∈ deferred | wontfix | fixed-awaiting-scan
+# deferred = an upstream parent pins/blocks the patched version; retry on parent
+#            upgrade. wontfix = risk accepted after investigation.
+# This register is documentation + sweep cross-check. Where Dependabot's fix
+# would break the build, add an `ignore` above AND cite the register key.
+# Re-opening of a registered alert = register review trigger, not noise.
+# Entries: (none — 2026-10-02 audit found all open criticals addressable:
+# tar|21 and shell-quote|3 are transitive via @expo/cli and react-devtools-core
+# with parent ranges admitting the patched versions. Route via Dependabot PRs
+# / lock refresh.)
