@@ -9,7 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@equationalapplications/expo-llm-wiki": "^4.5.1",
+    "@equationalapplications/expo-llm-wiki": "^7.7.4",
     "expo": "~54.0.33",
     "expo-clipboard": "^57.0.2",
     "expo-sqlite": "^55.0.16",
