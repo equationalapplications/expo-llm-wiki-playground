@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@equationalapplications/expo-llm-wiki": "^4.5.1",
-    "expo": "~54.0.33",
+    "expo": "~57.0.27",
     "expo-clipboard": "^57.0.2",
     "expo-sqlite": "^55.0.16",
     "expo-status-bar": "~57.0.1",
