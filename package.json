@@ -11,7 +11,7 @@
   "dependencies": {
     "@equationalapplications/expo-llm-wiki": "^4.5.1",
     "expo": "~58.0.10",
-    "expo-clipboard": "^57.0.2",
+    "expo-clipboard": "^58.0.3",
     "expo-sqlite": "^58.0.13",
     "expo-status-bar": "~57.0.1",
     "react": "19.3.1",
