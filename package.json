@@ -9,13 +9,13 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@equationalapplications/expo-llm-wiki": "^7.13.0",
-    "expo": "~58.0.16",
+    "@equationalapplications/expo-llm-wiki": "^7.13.1",
+    "expo": "~58.0.21",
     "expo-clipboard": "^58.0.4",
-    "expo-sqlite": "^58.0.13",
+    "expo-sqlite": "^58.0.14",
     "expo-status-bar": "~58.0.4",
     "react": "19.3.1",
-    "react-native": "0.88.0"
+    "react-native": "0.88.1"
   },
   "devDependencies": {
     "@types/react": "~19.3.0",
